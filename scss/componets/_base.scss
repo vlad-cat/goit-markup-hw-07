@@ -6,7 +6,7 @@ ul {
 
 body {
     font-family: Roboto, sans-serif;
-    color: var(--text-color);
+    color: $textColor;
 }
 
 h1,
@@ -30,16 +30,6 @@ p {
     color: inherit;
 }
 
-.current::after {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: "";
-    background-color: var(--text-hover-color);
-    width: 100%;
-    height: 3px;
-}
 
 img {
     display: block;
@@ -55,20 +45,28 @@ img {
     padding-right: 15px;
 }
 
-.link {
-    text-decoration: none;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+// .link {
+//     text-decoration: none;
+//     font-family: "Roboto";
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 16px;
+//     letter-spacing: 0.02em;
 
-    color: var(--primary-text-color);
-}
+//     color: #757575;;
+// }
 
-.link:hover,
-.link:focus {
-    color: --text-hover-color;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+// .link:hover,
+// .link:focus {
+//     color: $textHoverColor;
+//     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+// }
+
+// .ul {
+//     margin-top: 94px;
+//     padding-left: 0px;
+//     margin: 0px;
+//     padding: 0px;
+//     list-style: none;
+// }
