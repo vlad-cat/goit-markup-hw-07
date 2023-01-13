@@ -38,7 +38,7 @@
           </ul>
         </nav>
 
-        <ul class="contacts__list">
+        <ul class="contacts">
           <li class="contacts__item">
             <a class="contacts__mail" href="mailto:info@devstudio.com">
               <svg class="contacts__icon" width="16" height="12">
@@ -62,7 +62,7 @@
     <main>
       <!-- /*section-hero*/ -->
 
-      <section class="section-hero">
+      <section class="hero">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <div class="center">
@@ -79,8 +79,8 @@
         <div class="container">
           <ul class="qualities">
             <li>
-              <div class="qualities__icon">
-                <svg class="icon" width="70" height="70">
+              <div class="qualities__svg">
+                <svg width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -92,8 +92,8 @@
             </li>
 
             <li>
-              <div class="qualities__icon">
-                <svg class="icon" width="70" height="70">
+              <div class="qualities__svg">
+                <svg width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -105,8 +105,8 @@
             </li>
 
             <li>
-              <div class="qualities__icon">
-                <svg class="icon" width="70" height="70">
+              <div class="qualities__svg">
+                <svg width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -118,8 +118,8 @@
             </li>
 
             <li>
-              <div class="qualities__icon">
-                <svg class="icon" width="70" height="70">
+              <div class="qualities__svg">
+                <svg width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -135,21 +135,21 @@
 
       <!-- /*section-work*/ -->
 
-      <section class="section__work">
+      <section class="work">
         <div class="container">
-          <h2 class="section__title">Чим ми займаємося</h2>
-          <ul class="section__list">
-            <li class="section__item">
+          <h2 class="work__title">Чим ми займаємося</h2>
+          <ul class="work__list">
+            <li class="work__item">
               <img src="./images/box1.jpg" alt="картинка" width="370" />
-              <h3 class="section__caption">декстопні додатки</h3>
+              <h3 class="work__caption">декстопні додатки</h3>
             </li>
-            <li class="section__item">
+            <li class="work__item">
               <img src="./images/box2.jpg" alt="картинка" width="370" />
-              <h3 class="section__caption">мобільні додатки</h3>
+              <h3 class="work__caption">мобільні додатки</h3>
             </li>
-            <li class="section__item">
+            <li class="work__item">
               <img src="./images/box3.jpg" alt="картинка" width="370" />
-              <h3 class="section__caption">дезайнерські рішення</h3>
+              <h3 class="work__caption">дезайнерські рішення</h3>
             </li>
           </ul>
         </div>
@@ -163,14 +163,14 @@
           <ul class="team__list list">
             <li class="team__item">
               <img
-                class="img-contact"
+                class="img__contact"
                 src="./images/img(1).jpg"
                 alt="зображення співробітника"
                 width="270"
               />
               <h3 class="card__title">Ігор Дем'яненко</h3>
               <p class="card__text">Product Designer</p>
-              <ul class="socials__list">
+              <ul class="socials">
                 <li>
                   <a href="#" class="socials__link">
                     <svg class="socials__icon" width="20" height="20">
@@ -203,14 +203,14 @@
             </li>
             <li class="team__item">
               <img
-                class="img-contact"
+                class="img__contact"
                 src="./images/img(2).jpg"
                 alt="зображення співробітника"
                 width="270"
               />
               <h3 class="card__title">Ольга Рєпіна</h3>
               <p class="card__text">Frontend Developer</p>
-              <ul class="socials__list">
+              <ul class="socials">
                 <li>
                   <a href="#" class="socials__link">
                     <svg class="socials__icon" width="20" height="20">
@@ -243,14 +243,14 @@
             </li>
             <li class="team__item">
               <img
-                class="img-contact"
+                class="img__contact"
                 src="./images/img(3).jpg"
                 alt="зображення співробітника"
                 width="270"
               />
               <h3 class="card__title">Микола Тарасов</h3>
               <p class="card__text">Marketing</p>
-              <ul class="socials__list">
+              <ul class="socials">
                 <li>
                   <a href="#" class="socials__link">
                     <svg class="socials__icon" width="20" height="20">
@@ -283,14 +283,14 @@
             </li>
             <li class="team__item">
               <img
-                class="img-contact"
+                class="img__contact"
                 src="./images/img(4).jpg"
                 alt="зображення співробітника"
                 width="270"
               />
               <h3 class="card__title">Михайло Єрмаков</h3>
               <p class="card__text">Designer</p>
-              <ul class="socials__list">
+              <ul class="socials">
                 <li>
                   <a href="#" class="socials__link">
                     <svg class="socials__icon" width="20" height="20">
@@ -327,7 +327,7 @@
 
       <!-- /*section-client*/ -->
 
-      <section class="section">
+      <section class="client">
         <div class="container">
           <h2 class="client__title">Постійні клієнти</h2>
           <ul class="client__list list">
@@ -385,8 +385,8 @@
             ><span class="footer__studio">Studio</span>
           </a>
           <address class="footer__contacts">
-            <ul class="list">
-              <li class="footer__contacts__item">
+            <ul class="footer__list">
+              <li class="footer-contacts__item">
                 <a
                   class="footer__address"
                   href="https://goo.gl/maps/NiQYcTYFRRt27G937"
@@ -394,15 +394,15 @@
                 >
               </li>
 
-              <li class="footer__contacts__item">
+              <li class="footer-contacts__item">
                 <a
-                  class="footer__contacts__mail"
+                  class="footer-contacts__mail"
                   href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer__contacts__item">
-                <a class="footer__contacts__tel" href="tel:+380961111111"
+              <li class="footer-contacts__item">
+                <a class="footer-contacts__tel" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -410,7 +410,7 @@
           </address>
         </div>
 
-        <div class="footer-socials-retreat">
+        <div class="footer-socials">
           <h3 class="footer-socials__title">приєднуйтесь</h3>
           <ul class="footer-socials__list list">
             <li>

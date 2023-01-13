@@ -53,7 +53,7 @@
   }
 }
 
-.contacts__list {
+.contacts {
   list-style: none;
   display: flex;
   gap: 40px;
@@ -62,6 +62,7 @@
 }
 
 .contacts__mail {
+  text-decoration: none;
   align-items: center;
   display: flex;
   font-family: "Roboto";
@@ -81,6 +82,7 @@
 }
 
 .contacts__tel {
+  text-decoration: none;
   align-items: center;
   display: flex;
   font-family: "Roboto";
@@ -107,4 +109,3 @@
 .contacts__item {
   margin-right: 30px;
 }
-
